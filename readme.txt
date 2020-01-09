@@ -9,9 +9,9 @@ The main script to plot and present mcmc results.
 The script to read data, including time events and infectors. 
 - 1b_bound.R
 The script to create the functions for boundaries of missing time points. 
-- 2a_incubation.R
+- 2a_incubation.R (Figure S1A)
 The script to create the function for incubation period (and plot). 
-- 2b_distribution.R
+- 2b_distribution.R (Figure S1B)
 The script to create the function for time lag distributions using MLE (and plot). 
 - 3a_pmf_r.R
 The script to create the function for offspring distributions. 
@@ -34,11 +34,11 @@ The script to combine mcmc chains.
 
 - 7a_plot_mixing.R
 The script to plot mcmc chain samples. 
-- 7b_plot_dependence.R (Figure 2)
+- 7b_plot_dependence.R (Figure 3)
 The script to plot dependence between parameters. 
-- 8a_plot_pmf_r.R (Figure 3B)
+- 8a_plot_pmf_r.R (Figure 2D)
 The script to plot offspring distribution. 
-- 8b_plot_pmf_s.R (Figure 3A)
+- 8b_plot_pmf_s.R (Figure 2C)
 The script to plot serial interval distribution. 
 - 9a_cal_pmf_r.R
 The script to calculate mean and SD of offspring distribution. 
@@ -48,9 +48,9 @@ The script to calculate mean and SD of serial interval distribution.
 The script to calculate criterion values to compare alternative distributions. 
 - 10b_comp_para.R (Figure 4)
 The script to plot comparison of parameters in two scenarios. 
-- 11_efficacy.R (Figure 3D)
+- 11_efficacy.R (Figure 2B)
 The script to plot efficacy (individual protect effect) of all cases. 
-- 12_infector.R (Figure 3C)
+- 12_infector.R (Figure 2A)
 The script to plot distribution of infector of Case 20. 
 - 13_timelines.R (Figure 1)
 The script to plot observed and reconstructed time events of all cases. 
